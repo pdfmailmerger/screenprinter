@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply h-screen flex flex-col items-center justify-between;
+}
+
+.content {
+  @apply w-full prose py-8 mx-auto max-w-2xl px-4;
+}
+
+.footer {
+  @apply text-xs opacity-50 flex flex-col items-center justify-center space-y-2 py-4;
+}
